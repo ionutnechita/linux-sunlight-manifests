@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <remote name="github" fetch="https://github.com"/>
+
+        <project name="ionutnechita/linux-sunlight" path="linux-sunlight" remote="github" revision="5.18" clone-depth="1">
+		<linkfile dest="README.md" src="README.md"/>
+		<linkfile dest="README" src="README"/>
+        </project>
+        <project name="ionutnechita/linux-sunlight-integration" path="linux-sunlight-integration" remote="github" revision="5.18" clone-depth="1"/>
+</manifest>
